@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Making Awesome Web Applications</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/img/geek.jpg" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/custom.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
+                <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfolio</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead bg-primary text-white text-center">
+            <div class="container d-flex align-items-center flex-column">
+                <!-- Masthead Avatar Image-->
+                <img class="masthead-avatar mb-5" src="assets/img/avataaars.svg" alt="" />
+                <!-- Masthead Heading-->
+                <h1 class="masthead-heading text-uppercase mb-0">WordPress Web Developer</h1>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Masthead Subheading-->
+                <p class="masthead-subheading font-weight-light mb-0">WordPress - JavaScript - React - NodeJS</p>
+            </div>
+        </header>
+        <!-- Portfolio Section-->
+        <section class="page-section portfolio" id="portfolio">
+            <div class="container">
+                <!-- Portfolio Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Portfolio</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Portfolio Grid Items-->
+                <input type="radio" id="All" name="categories" value="All" checked>
+                <input type="radio" id="client" name="categories" value="client">
+                <input type="radio" id="personal" name="categories" value="personal">
+            
+                <ol class="filters">
+                    <li>
+                    <label class="btn btn-primary" for="All">All</label>
+                    </li>
+                    <li>
+                    <label class="btn btn-primary" for="client">Client Projects</label>
+                    </li>
+                    <li>
+                    <label class="btn btn-primary" for="personal">Personal Projects</label>
+                    </li>
+                </ol>               
+                  
+                <div class="row justify-content-center posts">
+                    <div class="col-md-6 col-lg-4 post" data-category="client">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
+                            <div class="portfolio-item-caption d-flex flex-column align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white">Bay Trust Radio</i></div>
+                                <button class="btn btn-primary"><i class="fas fa-arrow-circle-right fa-2x"></i></buttoon>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/bay.png" alt="" />
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 post" data-category="client">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
+                            <div class="portfolio-item-caption d-flex flex-column align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white">Gateway Church</i></div>
+                                <button class="btn btn-primary"><i class="fas fa-arrow-circle-right fa-2x"></i></buttoon>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/church.png" alt="" />
+                        </div>
+                    </div>                    
+                     <div class="col-md-6 col-lg-4 post" data-category="client">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
+                            <div class="portfolio-item-caption d-flex flex-column align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white">Carlise Rescue Center</i></div>
+                                <button class="btn btn-primary"><i class="fas fa-arrow-circle-right fa-2x"></i></buttoon>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/horse.png" alt="" />
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 post" data-category="client">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
+                            <div class="portfolio-item-caption d-flex flex-column align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white">Quaker Tapestry</i></div>
+                                <button class="btn btn-primary"><i class="fas fa-arrow-circle-right fa-2x"></i></buttoon>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/qukaer.png" alt="" />
+                        </div>                       
+                    </div>
+                    <div class="col-md-6 col-lg-4 post" data-category="client">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal5">
+                            <div class="portfolio-item-caption d-flex flex-column align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white">Quaker Tapestry</i></div>
+                                <button class="btn btn-primary"><i class="fas fa-arrow-circle-right fa-2x"></i></buttoon>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/react.png" alt="" />
+                        </div>                       
+                    </div>
+                </div>    
+                   
+                </div>
+            </div>
+        </section>
+        <!-- About Section-->
+        <section class="page-section bg-primary text-white mb-0" id="about">
+            <div class="container">
+                <!-- About Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-white">About</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- About Section Content-->
+                <div class="row">
+                    <div class="col-lg-12 ml-auto text-center"><p class="lead">After three years of working alongside charities and building up my knowledge of web development and WordPress, I feel that I am ready for the new challenge of working in the web development industry as a WordPress developer.
+                        Please feel free to download my CV and view my recent projects. 
+                        </p></div>                    
+                </div>
+                <!-- About Section Button-->
+                <div class="text-center mt-4">
+                    <a class="btn btn-xl btn-outline-light" href="downloads/cv.pdf">
+                        <i class="fas fa-download mr-2"></i>
+                        Download CV
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- Contact Section-->
+        <section class="page-section" id="contact">
+            <div class="container">
+                <!-- Contact Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contact Me</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div> 
+                <h3 class="text-center text-secondary mb-0">dan@danmobbs.co</h3>            
+                <h3 class="text-center text-secondary mb-0">07505455768</h3>            
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="footer text-center">
+            <div class="container">
+                <div class="row">
+                    <!-- Footer Social Icons-->
+                    <div class="col-lg-12 mb-5 mb-lg-0">
+                        <h4 class="text-uppercase mb-4">Around the Web</h4>
+                        <a style="color: #fff;font-size:62px;" target="_blank" href="https://www.facebook.com/d.s.mobbzy/?hc_ref=ARSBBWI6vhqlAxbZg332uggQKVrlJA_Xp7YDJQHBU6UFrVaDmprshVTGZmJ03GNyU-w&ref=nf_target&__tn__=kC-R"><i class="icon fab fa-facebook"></i></a>
+						<a style="color: #fff;font-size:62px;margin: 0 35px;" target="_blank" href="https://github.com/Dan-Mobbs"><i class="icon2 fab fa-github"></i></a>
+						<a style="color: #fff;font-size:62px;" target="_blank" href="https://www.linkedin.com/in/dan-mobbs/"><i class="icon3 fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Copyright Section-->
+        <div class="copyright py-4 text-center text-white">
+            <div class="container"><small>Copyright © Daniel Mobbs 2020</small></div>
+        </div>
+        <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)-->
+        <div class="scroll-to-top d-lg-none position-fixed">
+            <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top"><i class="fa fa-chevron-up"></i></a>
+        </div>
+        <!-- Portfolio Modals-->
+        <!-- Portfolio Modal 1-->
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-labelledby="portfolioModal1Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                    </button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal1Label">Bay Trust Radio</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/bay.png" alt="" />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-5">The bay Trust radio charity needed a new website, and I'm offered my skills voluntarily as a web developer.
+                                                    I meet with Danny and John, the station manager, and we discussed the project and ended up on a plan.                                        
+                                                    The charity needed a website application with full radio functionality, such as music updates, presenter on-air and a news feed.                                        
+                                                    I decided a WordPress website with plugins would do the job and pick a pre-made WordPress template with the plugins already integrated within the theme.                                        
+                                                    I worked with Bay trust radio for six months, building the website and assisting with other web-related projects.
+                                    </p>
+                                    <p class="mb-5"><strong>"I've struggled to find the right people to help me with my website. Dan listens to what you want and delivers what you ask for (usually earlier than the milestone deadlines) with great quality."</strong></p>
+                                    <a class="btn btn-secondary" href="https://www.baytrustradio.org.uk/" target="_blank">
+                                        <i class="fas fa-arrow-right"></i>
+                                        To Website
+                                    </a>
+                                    <button class="btn btn-primary" data-dismiss="modal">
+                                        <i class="fas fa-times fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 2-->
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-labelledby="portfolioModal2Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                    </button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal2Label">Gateway Church</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/church.png" alt="" />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-5">
+                                        I approached Jonny, the minister at the Gateway Chruch in Kendal. He needed some items updating on his WordPress website. 
+                                        
+                                        After updating the core WordPress software and other plugins, I noticed one website error was the contact form Recaptcha wasn't working. So after reinstalling the plugin and refreshing the website cache, it fixed the problem.</p>
+                                    <p class="mb-5"><strong>"Dan was extremely professional, knowledgable and sped up our website which was very important in a time of crisis. He was quick and efficient and we would work with him again"</strong></p>    
+                                    <a class="btn btn-secondary" href="https://gatewaychurchkendal.org/" target="_blank">
+                                        <i class="fas fa-arrow-right"></i>
+                                        To Website
+                                    </a>
+                                    <button class="btn btn-primary" data-dismiss="modal">
+                                        <i class="fas fa-times fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 3-->
+        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-labelledby="portfolioModal3Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                    </button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal3Label">RaceHorse Rescue</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/horse.png" alt="" />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-5">I meet with John, the owner of Carlisle racehorse centre. He needed his website updating and also a members-only area creating for the donating members of the charity. 
+
+                                        We discussed the project and how we would go about it, and then I started to plan out the project.
+                                        
+                                        The charity website being a WordPress website, I decided instead of coding the project from scratch, I would use plugins to build out the membership area.
+                                        
+                                        After one month, I completed the project and built a membership area that included ways for the members to get individual posts, images and news for the charity and make payments through the website.</p>
+                                    <p class="mb-5"><Strong>"Dan provided high quality website development and he is always available"</Strong></p>    
+                                    <a class="btn btn-secondary" href="https://www.racehorserescue.org.uk/membership-2-3/" target="_blank">
+                                        <i class="fas fa-arrow-right"></i>
+                                        To Website
+                                    </a>
+                                    <button class="btn btn-primary" data-dismiss="modal">
+                                        <i class="fas fa-times fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 4-->
+        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-labelledby="portfolioModal4Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                    </button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal4Label">Quaker Tapestry</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/qukaer.png" alt="" />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-5">
+                                        For this project, wanting to know more about SEO, I decided to approach the Quaker Tapestry in Kendal. They needed their website updating and improving for SEO.
+                                        
+                                        As their website was WordPress, we installed Yoast. I spent two months learning and improving the charities website on-page SEO, including added internal links, updating title tags, improving content, and adding meta descriptions and alt image text.</p>
+                                    <p class="mb-5"><Strong>"Definitely will use him again. Good work. cheers"</Strong></p>        
+                                    <a class="btn btn-secondary" href="https://www.quaker-tapestry.co.uk/" target="_blank">
+                                        <i class="fas fa-arrow-right"></i>
+                                        To Website
+                                    </a>
+                                    <button class="btn btn-primary" data-dismiss="modal">
+                                        <i class="fas fa-times fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 5-->
+        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-labelledby="portfolioModal5Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                    </button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal5Label">Demo Website Project</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/react.png" alt="" />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-5">I built this demo website using React.js and custom-coded HTML5/CSS3. 
+
+                                        I started the project by creating simple designs on paper then building the website in a VScode editor using react and building out the HMTL structure then adding the styles.
+                                        
+                                        For code samples of the project please follow the Github link below or view the project</p>
+                                    <a class="btn btn-secondary" href="https://60622d5755017800d55016cc--jolly-pasteur-957b70.netlify.app/" target="_blank">
+                                        <i class="fas fa-arrow-right"></i>
+                                        To Website
+                                    </a>
+                                    <a class="btn btn-secondary" href="https://github.com/Dan-Mobbs/React-Learning-Website" target="_blank">
+                                        <i class="fas fa-arrow-right"></i>
+                                        Github Code
+                                    </a>
+                                    <button class="btn btn-primary" data-dismiss="modal">
+                                        <i class="fas fa-times fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 6-->
+        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-labelledby="portfolioModal6Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                    </button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal6Label">Submarine</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/submarine.png" alt="" />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <a class="btn btn-secondary" href="https://www.baytrustradio.org.uk/" target="_blank">
+                                        <i class="fas fa-arrow-right"></i>
+                                        To Website
+                                    </a>
+                                    <button class="btn btn-primary" data-dismiss="modal">
+                                        <i class="fas fa-times fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+          <!-- Custom JS Files -->
+          <script src="js/custom.js"></script>
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+        
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+              
+    </body>
+</html>
